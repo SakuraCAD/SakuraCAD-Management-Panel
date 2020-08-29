@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    flex-wrap: wrap;
+    &__child {
+        &:first-child {
+            margin-left: 10px;
+        }
+        &:last-child {
+            margin-right: 10px;
+        }
+    }
+}

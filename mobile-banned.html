@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="assets/css/main.css" rel="stylesheet" type="text/css">
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+</head>
+
+<body class="background-holder">
+    <script>
+        (function(d, t) {
+            var BASE_URL = "https://chatwoot.opxl.pw";
+            var g = d.createElement(t),
+                s = d.getElementsByTagName(t)[0];
+            g.src = BASE_URL + "/packs/js/sdk.js";
+            s.parentNode.insertBefore(g, s);
+            g.onload = function() {
+                window.chatwootSDK.run({
+                    websiteToken: 'hKempe3Z6obLHJQA4eLR57fZ',
+                    baseUrl: BASE_URL
+                })
+            }
+        })(document, "script");
+    </script>
+    <div class="mobile-main">
+        <div class="mobile-align">
+            <div class="mobile-info">
+                <span class="iconify" data-inline="false" data-icon="mdi:alert-circle-outline" style="color: #ec407a; font-size: 90px;"></span>
+                <h3>Sorry! You can’t manage your SakuraCAD Account From a Mobile Device!</h3>
+                <p>If you need to make urgent changes to your Account, Let us know by using the Live Chat below!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

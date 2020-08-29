@@ -1,0 +1,28 @@
+.mobile-align {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.mobile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    h3,
+    p {
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        color: white;
+        font-weight: 400;
+        font-size: 50px;
+    }
+}
+
+.mobile-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
